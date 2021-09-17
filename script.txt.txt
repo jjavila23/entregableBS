@@ -1,0 +1,44 @@
+
+Digital House.
+Julio Avila 
+
+
+insert into status (status_id, status_name) values
+(1,'create'),
+(2,'modify'),
+(3,'delete');
+
+insert into users (user_full_name, user_emai) values 
+('userfullname1','useremail1@mail.com'),
+('userfullname2','useremail2@mail.com'),
+('userfullname3','useremail3@mail.com'),
+('userfullname4','useremail4@mail.com'),
+('userfullname5','useremail5@mail.com'),
+('userfullname6','useremail6@mail.com'),
+('userfullname7','useremail7@mail.com'),
+('userfullname8','useremail8@mail.com'),
+('userfullname9','useremail9@mail.com'),
+('userfullname10','useremail10@mail.com');
+
+insert into category (category_name, note_id) values ('salsa',2),
+('balada',2), 
+('electronica',3), 
+('pop',4), 
+('ranchera',5), 
+('jazz',6), 
+('romantica',7),
+('merengue',8),
+('bachata',9), 
+('reggaeton',10);
+
+insert into notes (note_title,category_id,user_id,note_description, note_block, status_id) values 
+('cancion vieja',2,4,'paso de moda',1,1),
+('cancion nueva',3,6,'esta de moda',0,1),
+('cancion bonita',4,8,'me gusta esta',1,3),
+('cancion mala',6,9,'no me gusta',0,2),
+('cancion mala',7,10,'paso de moda',1,3),
+('cancion pegadita',8,1,'esta sonando siempre',1,2),
+('cancion de mi mama',2,5,'paso de moda',1,1),
+('cancion de mi papa',1,9,'paso de moda',0,3),
+('cancion para bailar',10,4,'esta de moda',1,2),
+('cancion del momento',6,2,'esta de moda',1,1);
